@@ -2,6 +2,8 @@
 
 A simple Reinforcement Learning demo using Gymnasium's LunarLander-v3 and the Proximal Policy Optimization algorithm
 
+https://github.com/user-attachments/assets/e81fdabe-7a4e-4a0f-98ae-ef5a8bbca5ad
+
 ## Overview
 
 ### What is Reinforcement Learning?
