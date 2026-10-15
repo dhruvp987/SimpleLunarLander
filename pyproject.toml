@@ -1,0 +1,21 @@
+[project]
+name = "simplelunarlander"
+version = "0.1.0"
+description = "Simple Reinforcement Learning Demo using Gymnasium's LunarLander-v3"
+readme = "README.md"
+authors = [
+    { name = "Dhruv Patel", email = "169485603+dhruvp987@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "gymnasium[box2d]>=1.4.0",
+    "stable-baselines3>=2.9.0",
+    "swig>=4.5.1",
+]
+
+[project.scripts]
+simplelunarlander = "simplelunarlander:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
